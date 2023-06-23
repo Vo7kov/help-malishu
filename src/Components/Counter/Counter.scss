@@ -1,0 +1,22 @@
+$defaultPadding: 8px 16px;
+
+.counter {
+  position: relative;
+  top: 30%;
+
+  &__input {
+    display: block;
+    padding: $defaultPadding;
+  }
+
+  &__button {
+    margin-top: 8px;
+  }
+}
+
+.button {
+  padding: $defaultPadding;
+  width: 100%;
+
+  cursor: pointer;
+}
